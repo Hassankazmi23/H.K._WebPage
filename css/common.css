@@ -1,0 +1,24 @@
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1.4 Georgia, serif;
+}
+
+
+.activate {
+	background-color: #000531;
+	color: white;
+	display: inline;
+}
+
+.nav-top {
+	font-size: 1.25rem;
+}
+
+.hassan {
+	width: 301px;
+	height: 205px;
+	float:left;
+
+}
