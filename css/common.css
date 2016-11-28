@@ -5,6 +5,18 @@ html {
 	font: normal 100%/1.4 Georgia, serif;
 }
 
-.current {
-	background: #000531;
-	color: #fff;
+.activate {
+	background-color: #000531;
+	color: white;
+	display: inline;
+}
+
+.nav-top {
+	font-size: 1.25rem;
+}
+
+.hassan {
+	width: 225px;
+	height: 225px;
+
+}
