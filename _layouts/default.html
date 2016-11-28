@@ -3,20 +3,23 @@
 <head>
 	<meta charset = "utf-8">
 	<title>H. Kazmi </title>
+	<link href = "{{site.baseurl}}/css/common.css" rel = "stylesheet">
 </head>
 <body>
 
 <header>
+	<img alt = "person" class = "hassan" src="Images/Hkazmi1.jpeg">
 	<h1>Hassan Kazmi's Web Page</h1>
-	<nav>
-		<ul>
-			<li><a href= "{{site.baseurl}}/index.html"> Home </a></li>
-			<li><a href= "{{site.baseurl}}/About_me.html"> About me </a></li>
-		</ul>	
-	</nav>
-</header>
+	{% include nav.html navclass = 'nav-top' %}
+	</header>
 
 {{ content }}
+
+<footer>
+	<p>H.K.</p>
+	{% include nav.html navclass = 'nav-bottom' %}
+</footer>
+
 
 </body>
 </html>
