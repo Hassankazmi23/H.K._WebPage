@@ -5,21 +5,57 @@
 	<title>H. Kazmi </title>
 	<link href = "{{site.baseurl}}/css/common.css" rel = "stylesheet">
 </head>
-<body>
 
-<header>
-	<img alt = "person" class = "hassan" src="Images/Hkazmi1.jpeg">
-	<h1>Hassan Kazmi's Web Page</h1>
-	{% include nav.html navclass = 'nav-top' %}
-	</header>
-
-{{ content }}
-
-<footer>
-	<p>H.K.</p>
-	{% include nav.html navclass = 'nav-bottom' %}
-</footer>
+<div class = "outside">
 
 
-</body>
+	<body>
+
+		<div class = "container">
+
+		<header>
+
+		<div class = "avatar">	
+
+			<img alt = "person" class = "hassan" src="Images/Hkazmi1.jpeg">
+		</div>  <!-- avatar -->
+
+		<div class = "heading"> 
+
+			<h1>Hassan Kazmi's Web Page</h1>
+
+		</div> <!--heading-->
+
+
+		
+
+		<div class = "navbar">
+			<hr>
+
+		{% include nav.html navclass = 'nav-top' %}
+		</header>
+
+		</div> <!--navbar-->
+
+		<hr>
+
+		{{ content }}
+
+		<hr>
+		<div class = "navbar">
+
+		<footer>
+		<p>H.K.</p>
+		{% include nav.html navclass = 'nav-bottom' %}
+		</footer>
+
+		</div> <!--navbar -->
+		<hr>
+		</div> <!-- container -->
+
+
+	</body>
+
+</div> <!-- outside -->
+
 </html>

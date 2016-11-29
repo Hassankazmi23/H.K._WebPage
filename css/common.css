@@ -17,8 +17,36 @@ html {
 }
 
 .hassan {
-	width: 301px;
-	height: 205px;
+	width: 100px;
+	height: 100px;
+	margin: 10px 50px 10px 10px;
 	
+}
 
+.avatar{
+	float: left;
+}
+
+.navbar{
+	clear: both;
+}
+
+.nav{
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+	display: inline;
+	position: relative;
+	padding-left: 11px;
+	margin: 0 0 3px 0;
+
+}
+
+.heading{
+	position: relative;
+	margin: 0 0 3px 0;
 }
