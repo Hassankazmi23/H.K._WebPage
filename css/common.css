@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 html {
 	margin: 0;
 	padding: 0;
@@ -7,7 +16,7 @@ html {
 
 
 .activate {
-	background-color: #000531;
+	background-color: #99ccff;
 	color: white;
 	display: inline;
 }
@@ -52,13 +61,16 @@ html {
 }
 
 
-html {
+
+.outside {
 	padding: 50px 30px 50px 80px;
 	border-style: solid;
-   border-color: red;
-   border-width: 85px;
+   border-color: #d9d9d9;
+   border-width: 75px;
    
 }
+
+
 
 .Icon {
 	width: 50px;
@@ -74,3 +86,14 @@ html {
 .nav li:hover {
 	font-weight: bold;
 }
+
+.project-Book{
+	height: 300px;
+	width: 800px;
+}
+
+.Projectsx{
+	margin: 0 auto;
+    text-align: left;
+    width: 800px;
+ }
