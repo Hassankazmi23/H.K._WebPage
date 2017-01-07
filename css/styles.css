@@ -171,6 +171,19 @@ figure{
 	width:420px;
 }
 
+.projectsFigure{
+
+	border:3px solid #142830;
+	float:right;
+	height:150px;
+	margin-left:15px;
+	overflow:hidden;
+	width:420px;
+
+
+
+}
+
 figure:hover{
 	-moz-box-shadow:0 0 2px #4D7788;
 	-webkit-box-shadow:0 0 2px #4D7788;
@@ -216,4 +229,19 @@ footer a.by{
 
 footer a.up{
 	float:right;
+}
+
+#article2 .articleBody{
+	padding-bottom: 13px;
+}
+
+#article3 .articleBody .Icon {
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+    
+}
+
+#article3 .articleBody .Icon:hover {
+	opacity: 1.0;
 }
