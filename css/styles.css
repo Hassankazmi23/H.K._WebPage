@@ -184,6 +184,26 @@ figure{
 
 }
 
+.projectsFigure2{
+
+	border:3px solid #142830;
+	float:right;
+	height:250px;
+	margin-left:15px;
+	margin-right: 97.5px;
+	overflow:hidden;
+	width:720px;
+
+
+   
+
+
+
+
+
+}
+
+
 figure:hover{
 	-moz-box-shadow:0 0 2px #4D7788;
 	-webkit-box-shadow:0 0 2px #4D7788;
@@ -244,4 +264,12 @@ footer a.up{
 
 #article3 .articleBody .Icon:hover {
 	opacity: 1.0;
+
+
+}
+
+.EAS {
+	position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
 }
